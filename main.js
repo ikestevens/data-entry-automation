@@ -1,7 +1,7 @@
 new p5(function(p) {
 
     /* ─────── CONFIG ─────── */
-    const FPS          = 15;
+    const FPS          = 10;
     const TOTAL_RIBBONS = 300;
 
     let fullPct = 0.0;
