@@ -2,7 +2,7 @@ new p5(function(p) {
 
     /* ─────── CONFIG ─────── */
     const FPS          = 15;
-    const TOTAL_RIBBONS = 1000;
+    const TOTAL_RIBBONS = 300;
 
     let fullPct = 0.0;
     let partialPct = 0.0;
@@ -14,7 +14,7 @@ new p5(function(p) {
 
     const spacing     = 20;
     const flowScale   = 0.01;
-    const ribbonThick = 30;
+    const ribbonThick = 60;
     const stepSize    = 3;
     const zInc        = 0.0008;
     const minLen      = 5;
