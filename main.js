@@ -162,7 +162,7 @@ new p5(function(p) {
         p.textStyle(p.NORMAL);
         p.textSize(18);
         const labelWidths = labels.map(lbl =>
-            p.textWidth(`${lbl.name}: ${(lbl.value * 100).toFixed(1)}%`)
+            p.textWidth(`${lbl.name}: ${(Math.round(lbl.value * 1000) / 10).toFixed(1)}%`)
         );
 
         p.textStyle(p.BOLD);
@@ -200,7 +200,7 @@ new p5(function(p) {
             p.rect(x + innerPad, yy + 7, sw, sw, 3);
             p.fill(0);
             p.textAlign(p.LEFT, p.CENTER);
-            p.text(`${lbl.name}: ${(lbl.value * 100).toFixed(1)}%`,
+            p.text(`${lbl.name}: ${(Math.round(lbl.value * 1000) / 10).toFixed(1)}%`,
                 x + innerPad + pillarW, yy + 15);
         });
     }
