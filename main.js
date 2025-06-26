@@ -8,9 +8,9 @@ new p5(function(p) {
     let partialPct = 0.0;
     let manualPct = 0.0;
 
-    const fullColor    = '#14342B';
-    const partialColor = '#FF579F';
-    const manualColor  = '#63B0CD';
+    const fullColor    = '#1B2F33';
+    const partialColor = '#447604';
+    const manualColor  = '#208AAE';
 
     const spacing     = 20;
     const flowScale   = 0.01;
